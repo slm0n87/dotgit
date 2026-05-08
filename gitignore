@@ -2,3 +2,5 @@
 *.pyc
 #venv/
 .vscode/
+.DS_Store
+gitconfig.local

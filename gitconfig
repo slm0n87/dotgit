@@ -1,6 +1,7 @@
 [user]
   name = YOURNAMEHERE
   email = YOUREMAILHERE
+	signingkey = YOURSSHKEYHERE
 [merge]
   tool = vimdiff
 [color]
@@ -36,3 +37,10 @@
   path = ~/prv/.gitconfig
 [init]
 	defaultBranch = main
+	useHttpPath = true
+[include]
+  path = ~/.gitconfig.local
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
