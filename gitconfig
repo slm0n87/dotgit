@@ -39,7 +39,7 @@
 	defaultBranch = main
 	useHttpPath = true
 [include]
-  path = ~/.gitconfig.local
+  path = ~/.git/gitconfig.local
 [gpg]
 	format = ssh
 [commit]
